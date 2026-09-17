@@ -9,6 +9,8 @@ and play through parts of Northshire, but this is still a development project.
 Getting a few quests working is a start. Getting the whole game working properly
 on this hardware is going to take more work.
 
+<img width="1284" height="985" alt="Screenshot 2026-09-16 121330" src="https://github.com/user-attachments/assets/b3678795-2bb4-4546-bc28-a6b09d8772f1" />
+
 ## How it works
 
 I'm using [WoWee](https://github.com/Kelsidavis/WoWee) as the starting point. It
