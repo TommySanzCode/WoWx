@@ -1,0 +1,167 @@
+# Initial Northshire creature display coverage; IDs resolve through Vanilla DBCs.
+# Rabbits, wolves, horse, imp, and the kobold display family. Humanoids pending.
+328
+447
+604
+2410
+4449
+4626
+26
+139
+163
+365
+371
+373
+511
+774
+2152
+2153
+2299
+10911
+10912
+10913
+# Humanoid questgivers: Deputy Willem, Marshal McBride, Eagan
+2072
+1859
+3251
+
+# Additional displays from the private server Northshire catalog
+# Defias Thug
+5035
+# Defias Thug
+5036
+# Mine Spider
+368
+# Janos Hammerknuckle
+3275
+# Defias Cutpurse
+2361
+# Defias Cutpurse
+2362
+# Riverpaw Runt
+10791
+# Garrick Padfoot
+2073
+# Prowler
+11415
+# Brother Danil
+3277
+# Dermot Johns
+3276
+# Khelden Bremen
+5001
+# Priestess Anetta
+3344
+# Drusilla La Salle
+3345
+# Mother Fang
+2541
+# Riverpaw Outrunner
+512
+# Deer
+347
+# Fawn
+654
+# Llane Beshere
+3343
+# Jorik Kerridan
+3351
+# Brother Sammuel
+3346
+# Brother Paxton
+3253
+# Brother Neals
+3317
+# Godric Rothgar
+3278
+# Alchemist Mallory
+3237
+# Herbalist Pomeroy
+3269
+# Stormwind Guard
+3258
+# Stormwind Guard
+3257
+# Northshire Guard
+3167
+# Cow
+1060
+# Donni Anthania
+5086
+# Cat
+5585
+# Cat
+5555
+# Cat
+5556
+# Cat
+5586
+# Dane Winslow
+5087
+# Spirit Healer
+5233
+# Falkhaan Isenstrider
+5526
+# Orange Tabby
+5554
+# Milly Osworth
+8489
+# Northshire Peasant
+11354
+# Merissa Stilwell
+11898
+# Northshire Peasant displays observed in native-session entity captures
+308
+89
+
+# Private server catalog near saved character; includes alternate genders
+# Jose
+221
+# Lisa
+252
+# Dana
+257
+# Cameron
+262
+# Matt
+338
+# Murloc Streamrunner
+527
+# Mangy Wolf
+903
+# Innkeeper Farley
+1291
+# Brog Hamfist
+1292
+# Tomas
+1293
+# Zaldimar Wefhellt
+1294
+# Priestess Josetta
+1295
+# Michelle Belle
+1296
+# Keryn Sylvius
+1297
+# Toddrick
+3236
+# Barkeep Dobbins
+3266
+# Maximillian Crowe
+3271
+# Lee Brown
+3272
+# Jason Mathers
+3273
+# Adele Fielder
+3335
+# Remen Marcot
+4866
+# William Pestle
+5038
+# Cylina Darkheart
+5092
+# Helene Peltskinner
+5365
+# Melika Isenstrider
+5527

@@ -1,0 +1,43 @@
+{
+  "wowee": {
+    "url": "https://github.com/Kelsidavis/WoWee.git",
+    "commit": "19776ef0a8d0377b3cca0264a78a39c9b27bf600"
+  },
+  "nxdk": {
+    "url": "https://github.com/XboxDev/nxdk.git",
+    "commit": "fb5a9a7a58a431e8d70a9e7da87898059df376c0"
+  },
+  "glm": {
+    "url": "https://github.com/g-truc/glm.git",
+    "tag": "1.0.1",
+    "commit": "0af55ccecd98d4e5a8d1fad7de25ba429d60e863"
+  },
+  "stormlib": {
+    "url": "https://github.com/ladislav-zezula/StormLib.git",
+    "commit": "44ebfbfc109d76e2a85bbd5d8b0c949df7e65c6f"
+  },
+  "libtommath": {
+    "url": "https://github.com/libtom/libtommath.git",
+    "tag": "v1.3.0",
+    "commit": "95d80fd8229d05dd6cb4ec88bc8d4f5377ff00ef"
+  },
+  "vmangos": {
+    "url": "https://github.com/vmangos/core.git",
+    "commit": "0ee0b3f42ce9a2ee854c36ec881a425d24022388"
+  },
+  "vmangos_database": {
+    "url": "https://github.com/vmangos/core/releases/download/db_latest/db-13b49dc.zip",
+    "sha256": "2e000f71993dfd39a4cf9c4c820fe8f23844c616afe8d7368249f5a552dc9dd1"
+  },
+  "xemu": {
+    "version": "0.8.136",
+    "commit": "fc24584ce88f0915ad7f04775bb7712c2e3f49ee"
+  },
+  "stb_dxt": {
+    "url": "https://github.com/nothings/stb",
+    "commit": "2c980bb59875b0d32144a71867fbdebb2f77cd20",
+    "path": "third_party/stb/stb_dxt.h",
+    "sha256": "807667ef98e0fd749cdb65cca0c2d980bc148109d2fed6f1873c81ae0f449933",
+    "license": "MIT (selected alternative)"
+  }
+}

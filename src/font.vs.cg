@@ -1,0 +1,3 @@
+struct vIn { float4 pos:POSITION; float4 col:COLOR; float4 tex:TEXCOORD0; };
+struct vOut { float4 pos:POSITION; float4 col:COLOR; float4 tex:TEXCOORD0; };
+vOut main(vIn I) { vOut O;O.pos=I.pos;O.col=I.col;O.tex=I.tex;return O; }

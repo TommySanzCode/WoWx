@@ -1,0 +1,18 @@
+struct vIn { float4 tex:TEXCOORD; float4 norm:NORMAL; float4 pos:POSITION; float4 color:COLOR; };
+struct vOut { float4 pos:POSITION; float4 col:COLOR; float4 tex:TEXCOORD0; float fog:FOG; };
+vOut main(vIn I, uniform float4 camera, uniform float4 right,
+          uniform float4 up, uniform float4 forward, uniform float4 projection,
+          uniform float4 depth, uniform float4 ambient, uniform float4 diffuse,
+          uniform float4 to_light, uniform float4 material, uniform float4 uv_offset) {
+    vOut O;
+    float3 d=I.pos.xyz-camera.xyz;
+    float z=dot(d,forward.xyz);
+    O.pos=float4(projection.x+dot(d,right.xyz)*projection.z/z,
+                 projection.y-dot(d,up.xyz)*projection.z/z,
+                 depth.x*(z-depth.y)/z,z);
+    float light=clamp(dot(I.norm.xyz,to_light.xyz),depth.w,depth.z);
+    O.col=float4(clamp(ambient.xyz+diffuse.xyz*light,depth.www,depth.zzz)*I.color.xyz*material.xyz,material.w);
+    O.tex=I.tex+uv_offset;
+    O.fog=z*projection.w;
+    return O;
+}

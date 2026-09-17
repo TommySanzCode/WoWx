@@ -1,0 +1,12 @@
+struct vIn { float4 tex:TEXCOORD;float4 col:COLOR;float4 pos:POSITION; };
+struct vOut { float4 pos:POSITION;float4 col:COLOR;float4 tex:TEXCOORD0; };
+vOut main(vIn I,uniform float4 camera,uniform float4 right,uniform float4 up,
+          uniform float4 forward,uniform float4 projection,uniform float4 depth,
+          uniform float4 tint) {
+    vOut O;float3 d=I.pos.xyz-camera.xyz;float z=dot(d,forward.xyz);
+    O.pos=float4(projection.x+dot(d,right.xyz)*projection.z/z,
+                 projection.y-dot(d,up.xyz)*projection.z/z,
+                 depth.x-depth.y/z,z);
+    O.col=tint*(depth.z+depth.w*I.col);
+    O.tex=I.tex;return O;
+}

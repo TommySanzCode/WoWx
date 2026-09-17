@@ -1,0 +1,9 @@
+* text=auto eol=lf
+licenses/** -text -whitespace
+*.sh text eol=lf
+Makefile text eol=lf
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+*.cg text eol=lf

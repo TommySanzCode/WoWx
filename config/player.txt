@@ -1,0 +1,23 @@
+# Race sex skin face hairstyle haircolor facialhair
+1 0 0 0 0 0 0
+# Twenty display-ID / inventory-type pairs in character-enum slot order.
+0 0
+0 0
+0 0
+9891 4
+0 0
+0 0
+9892 7
+10141 8
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+1542 21
+18730 14
+0 0
+0 0
+0 0
