@@ -1,5 +1,8 @@
 # WoWx
 
+<img width="1254" height="1254" alt="WoWx Logo" src="https://github.com/user-attachments/assets/815001f5-a4c7-43fa-bec0-2de4d6ec37c0" />
+
+
 I'm working on getting Vanilla WoW running on the original Xbox. The goal is to
 have the client run on a stock 64 MB console, with controls and menus that make
 sense on an Xbox controller.
