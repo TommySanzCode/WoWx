@@ -74,8 +74,24 @@ configuration file. The build notes explain what to set up.
 - [Technical notes](docs/README.md)
 
 I don't plan on hosting a public server. The plan is for people to run their own
-locally and build the client using their own copy of the game. This repo is
-private for now while development continues.
+locally and build the client using their own copy of the game.
+
+## Want to help?
+
+Bug reports, Xbox test results and documentation fixes are welcome. Have a look
+at [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR, or use the
+[issue forms](https://github.com/TommySanzCode/WoWx/issues/new/choose) to report
+a problem or suggest something. General questions can go in
+[Discussions](https://github.com/TommySanzCode/WoWx/discussions).
+
+Please follow the [code of conduct](CODE_OF_CONDUCT.md). Security problems have
+a separate [private reporting process](SECURITY.md).
+
+## License
+
+WoWx uses [MIT with an additional restriction on commercial game use](LICENSE),
+matching WoWee's terms. Existing third-party code keeps its own licenses and
+notices. The license doesn't grant rights to Blizzard's game files.
 
 ## Credits
 

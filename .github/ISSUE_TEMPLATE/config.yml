@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and setup help
+    url: https://github.com/TommySanzCode/WoWx/discussions
+    about: Ask a question or discuss the project here.
+  - name: Report a security vulnerability privately
+    url: https://github.com/TommySanzCode/WoWx/security/advisories/new
+    about: Please keep security-sensitive details out of public issues.

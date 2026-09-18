@@ -1,0 +1,62 @@
+name: Bug report
+description: Something isn't working as expected.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please include enough detail to reproduce the problem. Remove passwords, tokens and personal paths from anything you post.
+        Security problems should use [private reporting](https://github.com/TommySanzCode/WoWx/security/advisories/new).
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where did it happen?
+      options:
+        - Original Xbox with 64 MB RAM
+        - Original Xbox with upgraded RAM
+        - xemu
+        - PC build or asset tools
+        - Local server or network setup
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Build or commit
+      description: Give the commit hash or test package name. Say unknown if you can't find it.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Explain what you expected and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can it be reproduced?
+      description: List the steps. Include the area, menu or action involved, and how often it happens.
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup details
+      description: Xbox revision, dashboard, controller and video mode; or xemu/OS/tool versions, depending on the problem. Leave out personal paths and credentials.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs, screenshots or video
+      description: Add relevant output or images. Don't attach original game files, firmware or private databases.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before posting
+      options:
+        - label: I've checked for an existing report of this problem.
+          required: true
+        - label: I've removed credentials and personal information from this report.
+          required: true

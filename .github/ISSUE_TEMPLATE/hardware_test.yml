@@ -1,0 +1,60 @@
+name: Hardware test report
+description: Share results from a physical Xbox, including successful tests.
+title: "[Hardware]: "
+labels: [hardware]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Actual Xbox results help a lot. Please say exactly what you tested and what happened.
+        Remove credentials and personal information from photos and logs. Use the bug form for xemu reports.
+  - type: input
+    id: build
+    attributes:
+      label: Build or test package
+      description: Include the package name or commit hash.
+    validations:
+      required: true
+  - type: dropdown
+    id: ram
+    attributes:
+      label: Xbox RAM
+      options:
+        - Stock 64 MB
+        - Upgraded RAM
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Console setup
+      description: Revision if known, mod/BIOS, dashboard, controller, video cable/mode and installation method. No firmware uploads or personal network details.
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: What did you test, and how did it go?
+      description: Cover what you tried, such as boot, controls, login, world entry, movement, menus, combat and logout. Include failures as well as successes.
+    validations:
+      required: true
+  - type: textarea
+    id: performance
+    attributes:
+      label: Performance and memory
+      description: If available, give the lowest free KiB, frame time and what was happening. Mention long pauses or crashes. It's fine to leave this blank if you couldn't measure it.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Photos, video or logs
+      description: Optional supporting evidence, with passwords and personal information removed.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before posting
+      options:
+        - label: These results come from a physical Xbox.
+          required: true
+        - label: I've removed credentials and personal information from the report.
+          required: true

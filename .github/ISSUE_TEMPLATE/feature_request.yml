@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest an improvement or discuss a missing feature.
+title: "[Idea]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the [roadmap](https://github.com/TommySanzCode/WoWx/blob/main/docs/ROADMAP.md) and existing issues first.
+        The goal is Vanilla WoW on a stock 64 MB Xbox with controller support.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would this help with?
+      description: Describe the missing behavior or the problem you're trying to solve.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What do you have in mind?
+      description: Explain how you'd like it to work. Controller examples are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Other approaches or references
+      description: Optional. Include any alternatives, relevant Vanilla behavior or hardware limitations.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before posting
+      options:
+        - label: I've checked the roadmap and existing issues.
+          required: true

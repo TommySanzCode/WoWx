@@ -1,5 +1,10 @@
 # Third-party code
 
+Original WoWx contributions are covered by the root `LICENSE`: MIT License
+with Additional Restriction, matching WoWee's commercial-game restriction.
+That license does not replace the separate terms for third-party material
+listed below or grant rights to original game assets.
+
 WOWX is an experimental native Xbox adaptation of WoWee, pinned by
 `config/dependencies.json`. WoWee code is covered by the upstream MIT License
 with Additional Restriction (no commercial game use without permission).
